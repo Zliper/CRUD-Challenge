@@ -19,7 +19,8 @@ Esta aplicacion web permite:
  -------------------------------------------------------------------------
 
  ## Estructura
- challenge-crud/
+ <pre>
+challenge-crud/
 │
 ├── server.js # Servidor Express principal
 ├── models/ # Modelos (User, DB, Auth)
@@ -29,6 +30,7 @@ Esta aplicacion web permite:
 │ ├── dashboard.html # Panel CRUD
 │ └── script.js # Lógica frontend con Fetch API
 └── init.sql # Script para inicializar DB
+</pre>
 
 ## Instalacion y ejecucuion
 1. Clonar el repositorio
