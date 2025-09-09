@@ -1,0 +1,44 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+logs
+*.log
+*.log.*
+*.out
+*.err
+
+# Database (ignora la de desarrollo, sube solo init.sql si es necesario)
+database.sqlite
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor configs
+.vscode/
+.idea/
+*.swp
+
+# Build output (si usas un bundler en el futuro)
+dist/
+build/
+.cache/
+.next/
+out/
+
+# Coverage (si usas tests con cobertura)
+coverage/
+
+# Temp files
+*.tmp
+*.temp
